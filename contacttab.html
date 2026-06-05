@@ -1,0 +1,53 @@
+ <section class="tab-page" id="tab-contact">
+      <div class="page-inner">
+        <h2 class="section-title">Get In <span class="accent">Touch</span></h2>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <p class="contact-intro">Have a project, opportunity, or just want to say hi? My inbox is always open!</p>
+            <div class="contact-links">
+              <a href="mailto:lingapriyasasikumar2710@gmail.com" class="clink">
+                <span class="clink-icon">✉</span>
+                <span>lingapriyasasikumar2710@gmail.com</span>
+              </a>
+              <a href="https://www.linkedin.com/in/linga-priya271013/" target="_blank" class="clink">
+                <span class="clink-icon">in</span>
+                <span>linkedin.com/in/linga-priya271013</span>
+              </a>
+              <a href="https://github.com/lingapriya-2710" target="_blank" class="clink">
+                <span class="clink-icon">⌥</span>
+                <span>github.com/lingapriya-2710</span>
+              </a>
+            </div>
+          </div>
+          <form class="contact-form" id="contactForm" action="https://formspree.io/f/xdavkqlz" method="POST">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="e.g. Arjun Kumar" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="What's it about?" />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me more..." required></textarea>
+            </div>
+            <button type="submit" class="submit-btn" id="submitBtn">
+              <span id="submitText">Send Message</span>
+              <span class="btn-arrow">→</span>
+            </button>
+            <div class="form-status" id="formStatus"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
